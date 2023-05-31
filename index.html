@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather Mars</title>
+
+      <!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"  rel="stylesheet">
+
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- Scripts -->
+
+<script src="scripts/index.js" defer></script>
+
+</head>
+<body>
+    
+<main class="mars-current-weather">
+    <h1 class="main-title">Latest
+        Weather at Elysium Plantitia</h1>
+        
+        <div class="date">
+            <h2 class="
+            section-tittle 
+            section-tittle">Sol 377</h2>
+            <p class="date__day">May 30</p>
+        </div>
+
+        <div class="temp">
+            <h2 class="section-tiitle">Temperature</h2>
+            <p class="reading">High: -20°C</p>
+            <p class="reading">Lowl: -120°C</p>
+        </div>
+       
+
+
+        <div class="wind">
+            <h2 class="section title">Wind</h2>
+            <p class="reading">75 kph</p>
+
+            <div class="wind__direction">
+                <p class="sr-only">45deg</p>
+                <div class="wind__arrow"></div>
+            </div>
+        </div>
+
+        <div class="info">
+            <p>InSight is taking daily weather measurements 
+                (temperature, wind, pressure) on the surface 
+                of Mars at Elysium Planitia, a flat, smooth 
+                plain near Mars’ equator.</p>
+            <p>
+                This is only a part of InSight’s mission. 
+                <a href="https://mars.nasa.gov/insight/mission/overview/">Click here</a> to find out more.</p>
+        </div>
+
+        <div class="unit">
+         <label for="cel">°C</label>
+         <input type="radio" id="cel" name="unit" checked>
+          <!-- when unit toggle is clicked
+        checked needs to change-->
+         <dbutton class="unit__toggle"></button>
+         <label for="fah">°F</label>
+         <input type="radio" id="fah" name="unit">
+        </div>
+
+</main>
+
+<div class="previous-weather"></div>
+
+</body>
+</html>
